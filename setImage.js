@@ -76,15 +76,15 @@ function setImage(rP, h, weatherNameParam) {
       element1.style.backgroundImage =
         "url(" + "night/Thunderstorm/" + imgId + ")";
     } else if (weatherName === "Drizzle") {
-      element1.style.backgroundImage = "url(" + "night/Drizzle/" + imgId/ + ")";
+      element1.style.backgroundImage = "url(" + "night/Drizzle/" + imgId + ")";
     } else if (weatherName === "Rain") {
-      element1.style.backgroundImage = "url(" + "night/Rain/" + imgId/ + ")";
+      element1.style.backgroundImage = "url(" + "night/Rain/" + imgId + ")";
     } else if (weatherName === "Snow") {
-      element1.style.backgroundImage = "url(" + "night/Snow/" + imgId/ + ")";
+      element1.style.backgroundImage = "url(" + "night/Snow/" + imgId + ")";
     } else if (weatherName === "Clear") {
-      element1.style.backgroundImage = "url(" + "night/Clear/" + imgId/ + ")";
+      element1.style.backgroundImage = "url(" + "night/Clear/" + imgId + ")";
     } else if (weatherName === "Clouds") {
-      element1.style.backgroundImage = "url(" + "night/Clouds/" + imgId/ + ")";
+      element1.style.backgroundImage = "url(" + "night/Clouds/" + imgId + ")";
     } else {
       element1.style.backgroundImage = "url(errorimage.jpg)";
     }
