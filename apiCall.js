@@ -14,7 +14,7 @@ function showPosition(position) {
   var lat = position.coords.latitude;
   var lon = position.coords.longitude;
 
-  var url = "http://api.openweathermap.org/data/2.5/weather?lat=";
+  var url = "https://api.openweathermap.org/data/2.5/weather?lat=";
 
   // document.write(lat);
   // document.write(lon);
